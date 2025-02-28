@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Set API Keys
 GOOGLE_API_KEY = "AIzaSyDvmhpLuwIzaegbN9Zm2x7ArOsHkGkcljY"
-OPENWEATHER_API_KEY = "f8a444244309ec5190f14b701603e86b"
+OPENWEATHER_API_KEY = "f8a444244309ec***0f14b701603e86b"
 
 # Configure Google Gemini Model
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro", google_api_key=GOOGLE_API_KEY)
